@@ -1,0 +1,59 @@
+nav{
+   color: white; 
+   background-color: black;
+}
+li{
+    display: inline-block;
+}
+.Fellow{
+    background-color: gray;
+    color: black;
+}
+section{
+    text-align: center;
+}
+.carousel {
+    background-color: lightgray; 
+    height: 150px;
+    width: 100%;
+  }
+  #Fell{
+      font-size: 0.5em;
+  }
+.photos{
+    height: 250px;
+    margin: 5px;
+  }
+article{
+    display: inline-block;
+    margin: 5px;
+    width: 200px;
+    height:200px;
+    background-color: lightgray; 
+}
+input, textarea{
+    display: block;
+    width: 80%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen 
+  and (max-width: 960px) {
+    .carousel {
+        visibility: hidden;
+        display: none;
+    }
+    .photos {
+        visibility: hidden;    
+        display: none;
+    }
+    h2 {
+        text-align: center;
+        margin-top: 50px;
+    }
+    #Fell {
+        font-size: 2rem;
+        margin-bottom: 50px;
+    }
+}
